@@ -1,0 +1,36 @@
+.container {
+    width: 95%;
+    margin: 0 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+
+.fieldset {
+    display: block;
+    margin-top: 2em;
+    border-top: thin solid black;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.legend {
+    width: fit-content;
+    position: relative;
+    top: -1.1em;
+    background-color: whitesmoke;
+    padding: 0 10px;
+}
+
+.section {
+    margin-bottom: 50px !important;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}

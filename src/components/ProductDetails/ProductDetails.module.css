@@ -1,0 +1,11 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 3% 5%;
+}
+
+.imagesList img:hover {
+    border: medium solid orange;
+}
